@@ -145,7 +145,12 @@ ul {
 }
 .contact-list {
   display: flex;
+  gap: 40px;
 }
+
+/* main */
+
+/* section1 */
 .section-title {
   background: #2e2f42;
   padding: 188px 0;
@@ -155,7 +160,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero\ image.png);
+    url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -199,6 +204,8 @@ ul {
   background-color: #404bbf;
   color: #fff;
 }
+
+/* section features */
 .features {
   padding: 120px 0;
 }
@@ -239,46 +246,24 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.icon-antenna {
+.feature-icon-cotainer {
   display: flex;
-  width: 100%;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   align-items: center;
   justify-content: center;
-  background: #f4f4fd;
-}
-.icon-clock {
-  display: flex;
-  width: 100%;
   height: 112px;
-  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4fd;
-}
-.icon-diagram {
-  display: flex;
-  width: 100%;
-  height: 112px;
   border: 1px solid #8e8f99;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4fd;
+  margin-bottom: 8px;
 }
-.icon-astronaut {
-  display: flex;
-  width: 100%;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4fd;
+.info-list-icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
+
+/* section team */
 
 .section-team {
   background: #f4f4fd;
@@ -333,7 +318,6 @@ ul {
   justify-content: center;
   align-items: center;
   margin-top: 8px;
-  padding-bottom: 32px;
 }
 .main-icon {
   height: 40px;
